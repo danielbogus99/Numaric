@@ -35,11 +35,11 @@ def lagrange_interpolation(x_data, y_data, x):
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
+
     table_points = [()]
 
-    x_data = []
-    y_data = []
+    x_data = [1, 2, 5, 2]
+    y_data = [1, 0, 2, 1]
     x_interpolate = 5  # The x-value where you want to interpolate
     y_interpolate = lagrange_interpolation(x_data, y_data, x_interpolate)
     print(bcolors.OKBLUE, "\nInterpolated value at x =", x_interpolate, "is y =", y_interpolate, bcolors.ENDC)
@@ -47,11 +47,11 @@ if __name__ == '__main__':
     y_interpolate = lagrange_interpolation(x_data, y_data, x_interpolate)
     print(bcolors.OKBLUE, "\nInterpolated value at x =", x_interpolate, "is y =", y_interpolate, bcolors.ENDC)
 
-=======
+
     x_data = [1, 2, 5,2]
     y_data = [1, 0, 2,1]
     x_interpolate = 3  # The x-value where you want to interpolate
->>>>>>> origin/main
+
 
     try:
         polynomial_coefficients, y_interpolate = lagrange_interpolation(x_data, y_data, x_interpolate)
