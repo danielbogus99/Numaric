@@ -46,4 +46,3 @@ if __name__ == '__main__':
     solution =gauss_seidel(A, b, X0)
     print(bcolors.OKBLUE,"\nApproximate solution:", solution)
 
-

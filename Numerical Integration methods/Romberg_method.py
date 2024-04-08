@@ -1,6 +1,6 @@
 import numpy as np
 from colors import bcolors
-
+import math
 
 def romberg_integration(func, a, b, n):
     """
@@ -36,14 +36,14 @@ def romberg_integration(func, a, b, n):
 
 
 def f(x):
-    return 1/(2+x ** 4)
+    return ()
 
 
 if __name__ == '__main__':
 
-    a = 0
-    b = 1
-    n = 5
+    a = 1
+    b = 2
+    n = 10
     integral = romberg_integration(f, a, b, n)
 
     print( f" Division into n={n} sections ")

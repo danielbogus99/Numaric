@@ -16,9 +16,9 @@ def trapezoidal_rule(f, a, b, n):
     integral *= h
 
     return integral
-
+2
 
 if __name__ == '__main__':
-    f = lambda x:math.e ** (x ** 2 )
-    result = trapezoidal_rule(f, 0, 1, 2)
+    f = lambda x:()
+    result = trapezoidal_rule(f, 3, 4, 10)
     print(bcolors.OKBLUE,"Approximate integral:", result, bcolors.ENDC)

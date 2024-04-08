@@ -75,6 +75,12 @@ def lu_solve(A_b):
     for x in result:
         print("{:.6f}".format(x))
 
+# Git:
+# Date: 18.03.2024
+# Group: Eytan Stryzhack 336244959, Daniel Boguslavsky 207915729, Shifra Avigdor 207067125, David Moalem 203387337
+
+
+# Name: Daniel Boguslavsky
 
 if __name__ == '__main__':
     A_b= np.array([[2, 3, 4,5],
