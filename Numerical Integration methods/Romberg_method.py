@@ -48,4 +48,3 @@ if __name__ == '__main__':
 
     print( f" Division into n={n} sections ")
     print(bcolors.OKBLUE, f"Approximate integral in range [{a},{b}] is {integral}", bcolors.ENDC)
-

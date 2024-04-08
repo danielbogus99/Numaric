@@ -41,7 +41,7 @@ def simpsons_rule(f, a, b, n):
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
+
     f = lambda x: ()
 
     n = 10
@@ -51,13 +51,4 @@ if __name__ == '__main__':
     print( f" Division into n={n} sections ")
     integral = simpsons_rule(f, a, b, n)
     print(bcolors.OKBLUE, f"Numerical Integration of definite integral in range [{a},{b}] is {round(integral,5)}", bcolors.ENDC)
-=======
-    f = lambda x: math.tan(x)
-    n = 60
-    a = -10
-    b = 10
->>>>>>> origin/main
 
-    print(f" Division into n = {n} sections ")
-    integral = simpsons_rule(f, a, b, n)
-    print(bcolors.OKBLUE, f"Numerical Integration of definite integral in range [{a}, {b}] is {integral}", bcolors.ENDC)

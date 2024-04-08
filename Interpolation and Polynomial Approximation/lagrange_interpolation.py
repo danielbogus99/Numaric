@@ -48,9 +48,7 @@ if __name__ == '__main__':
     print(bcolors.OKBLUE, "\nInterpolated value at x =", x_interpolate, "is y =", y_interpolate, bcolors.ENDC)
 
 
-    x_data = [1, 2, 5,2]
-    y_data = [1, 0, 2,1]
-    x_interpolate = 3  # The x-value where you want to interpolate
+
 
 
     try:
